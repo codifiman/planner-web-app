@@ -1,0 +1,12 @@
+/* components/TextInput */
+
+.textinput {
+  border: none;
+  border-bottom: solid 3px var(--grey);
+  font-size: 1.1em;
+  padding: 0.5rem;
+}
+
+.textinput::placeholder {
+  color: var(--grey-light);
+}

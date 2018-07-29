@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.App > header {
+  background-color: var(--bubblegum);
+  box-shadow: 0px 3px 10px 1px hsla(0,0%,60%,0.3);
+  height: var(--header-height);
+}
+
+.App > .AppBody {
+  flex: 1;
+  overflow: auto;
+}
+
+/* Themes */
+.App.blossom {
+  --primary:         var(--bubblegum);
+  --primary-light:   var(--powder);
+  --primary-dark:    var(--rose-gold);
+
+  --secondary:       var(--emerald);
+  --secondary-light: var(--lime);
+  --secondary-dark:  var(--emerald);
+}
+
+.App.summer {
+  --primary:         var(--poppy);
+}

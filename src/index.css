@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,900');
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --header-height: 4em;
+  --footer-height: var(--header-height);
+
+  /* Colors */
+  --poppy: hsl(5, 55%, 55%);
+  --dreamsicle: hsl(25, 70%, 68%);
+  --sunshine: hsl(35, 80%, 65%);
+  --emerald: hsl(158, 85%, 27%);
+  --lime: hsl(158, 85%, 85%);
+  --aquamarine: hsl(178, 97%, 38%);
+  --sky: hsl(194, 100%, 39%);
+  --lavender: hsl(250, 46%, 76%);
+  --bubblegum: hsl(355, 70%, 83%);
+  --powder: hsl(355, 70%, 97%);
+  --gold: hsl(35, 35%, 70%);
+  --rose-gold: hsl(5, 35%, 72%);
+  --silver: hsl(194, 12%, 70%);
+  --space: hsl(194, 5%, 20%);
+
+  --grey: hsl(194, 5%, 75%);
+  --grey-light: hsl(194, 5%, 80%);
+  --grey-xlight: hsl(194, 5%, 85%);
+}
